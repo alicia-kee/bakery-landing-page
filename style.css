@@ -41,6 +41,10 @@ a {
     font-size: 20px;
 }
 
+a:hover {
+    color: grey;
+}
+
 li {
     display: inline-block;
     margin: 8px;
@@ -81,7 +85,7 @@ button {
     border-radius: 8px;
 }
 
-button.follow-insta {
+.follow-insta {
     background-color: #FF6EC7;
     border: 1px solid #fadadd;
     color: #fadadd;
@@ -93,6 +97,11 @@ button.follow-insta {
     flex-shrink: 0;
     width: 220px;
     justify-content: center;
+}
+
+.follow-insta:hover {
+    background-color: #fadadd;
+    color: grey;
 }
 
 .cards-section {
