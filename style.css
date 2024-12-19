@@ -143,14 +143,33 @@ button {
     margin: 6px;
 }
 
+/*QUOTE SECTION*/
 .quote-section {
     background-color: rgb(222, 208, 220);
+    height: 100px;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
+.quote-text {
+    font-size: 30px;
+    font-style: italic;
+    color: #AA336A;
+}
+
+.quote-citation {
+    color: #AA336A;
+}
+
+/*ACTION SECTION*/
 .action-container {
     background-color: #FF6EC7;
 }
 
+/*FOOTER SECTION*/
 .footer {
     background-color: #AA336A;
     color: white;
