@@ -3,27 +3,30 @@
     <head>
         <meta charset = "utf-8">
         <title>Bakery Homepage</title>
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
         <div class="header">
-            <img src="./images/cupcakes-logo.png" alt="Cupcakes logo at top of page" height="80" class="header logo">
+            <div class="header-top">
+                <img src="./images/cupcakes-logo.png" alt="Cupcakes logo at top of page" height="80" class="header-logo">
 
-            <ul class="header-links">
-                <!--*can replace href to bring you to actual links-->
-                <li><a href="#">Prices</a></li>
-                <li><a href="#">Place Order</a></li>
-                <li><a href="#">About Us</a></li>
-            </ul>
-
+                <ul class="header-links">
+                    <!--*can replace href to bring you to actual links-->
+                    <li><a href="#">Prices</a></li>
+                    <li><a href="#">Place Order</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </div>
+           
             <div class="header-container">
                 <div class="header-text">
-                    <h1>AK's Bakery</h1>
+                    <div class="header-title">AK's Bakery</div>
                     <p>Welcome to AK's Bakery! All our products are baked from scratch on-site using only the best ingredients. The sweet aroma of our cakes, cupcakes, and other treats will leave you coming back for more!</p>
                     <button class="follow-insta">Follow Our Instagram Here</button>
                 </div>
 
-                <img src="./images/cupcakes-header.jpg" alt="Cupcakes header picture for website" height="200" width="400" > 
+                <img src="./images/cupcakes-header.jpg" alt="Cupcakes header picture for website" height="300" width="500" class="header-image"> 
 
             </div>
         </div>
@@ -70,7 +73,7 @@
         </div>
 
         <div class="footer">
-            <div class="footer-text">Copyright © The Odin Project 2024</div>
+            Copyright © The Odin Project 2024
         </div>
         
     </body>
