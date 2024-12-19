@@ -4,7 +4,7 @@ body {
     background-color: white;
     margin: 0;
     padding: 0;
-    font-family: Optima, sans-serif
+    font-family: Optima, sans-serif;
 }
 
 /*HEADER SECTION*/
@@ -14,7 +14,6 @@ body {
 
     background-color: #AA336A;
     color: #fadadd;
-    /* padding: 0 16px; */
 }
 
 .header-top{
@@ -82,13 +81,13 @@ li {
 
 button {
     cursor: pointer;
-    padding: 6px 14px;
     border-radius: 8px;
 }
 
 .follow-insta {
     background-color: #FF6EC7;
     border: 1px solid #fadadd;
+    padding: 6px 14px;
     color: #fadadd;
     font-size: 15px;
     margin: 15px 0;
@@ -112,6 +111,8 @@ button {
     background-color: #fadadd;
     padding: 20px;
     height: 400px;
+
+    flex: 1; /*allows section to grow in height if page shrinks (before some got covered w/ next section*/
 }
 
 .card-container {
@@ -146,7 +147,7 @@ button {
 /*QUOTE SECTION*/
 .quote-section {
     background-color: rgb(222, 208, 220);
-    height: 100px;
+    /* height: 100px; */
     padding: 100px;
     display: flex;
     flex-direction: column;
@@ -165,14 +166,58 @@ button {
 }
 
 /*ACTION SECTION*/
+.action-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    background-color: #fadadd;
+}
 .action-container {
     background-color: #FF6EC7;
+    width: 1000px;
+    padding: 40px;
+    border-radius: 10px;
+
+    display:flex;
+    justify-content: space-around;
+    gap: 3px;
+}
+
+.action-small-text {
+    color: #fadadd;
+    font-size: 12px;
+}
+
+.action-big-text {
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+}
+
+.signup-button {
+    background-color: #FF6EC7;
+    border: 3px solid #fadadd;
+    color: white;
+    width: 130px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.signup-button:hover {
+    background-color: #fadadd;
+    color: grey;
 }
 
 /*FOOTER SECTION*/
 .footer {
     background-color: #AA336A;
-    color: white;
-    height: 45px;
+    color: #fadadd;
+    height: 55px;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
 }
 
