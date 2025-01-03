@@ -214,10 +214,16 @@ button {
     background-color: #AA336A;
     color: #fadadd;
     height: 55px;
+    padding: 10px;
 
     display:flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 12px;
+}
+.attribute{
+    font-size:8px;
+    margin: 8px;
 }
 
